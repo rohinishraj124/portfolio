@@ -63,7 +63,7 @@
 }
 
 .skills {
-    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-color: black;
     background-size: cover;
     height: 60vw;
     background-repeat: calc(2);
@@ -102,7 +102,7 @@
 }
 
 .background {
-    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-color: black;
     background-size: cover;
     height: 60vw;
     background-repeat: calc(2);
@@ -128,7 +128,7 @@
 
 }
 .project {
-    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+   background-color: black;
     background-size: cover;
     height: 60vw;
     background-repeat: calc(2);
@@ -142,7 +142,7 @@
     font-weight: 700;
 }
 .contact {
-    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-color: black;
     background-size: cover;
     height: fit-content ;
     background-repeat: 3;
