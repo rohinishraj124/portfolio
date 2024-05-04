@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
 .nav {
     height: 6vw;
@@ -41,14 +42,50 @@
     margin-right: 50px;
 }
 
-.Home h1 {
+.s1 {
     font-size: 5vw;
-    font-family: "Permanent Marker", cursive;
-    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
-    color: rgb(41, 233, 243);
-    margin-left: 30vw;
+    color: #ffd24c;
+    margin-left: 22vw;
+    position: relative;
+    animation: slide 2s forwards;
+    transition: opacity 0.5s;
 }
+.s2 {
+    font-size: 5vw;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffd24c;
+    margin-left: 22vw;
+    position: relative;
+    animation: slide 3s forwards;
+    transition: opacity 0.5s;
+}
+.s3 {
+    font-size: 5vw;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffd24c;
+    margin-left: 22vw;
+    position: relative;
+    animation: slide 4s forwards;
+    transition: opacity 0.5s;
+}
+@keyframes slide {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
 
 .Home {
     align-items: center;
@@ -100,7 +137,6 @@
     border-radius: 1vw;
     margin-right: 2vw;
 }
-
 .background {
     background-color: black;
     background-size: cover;
