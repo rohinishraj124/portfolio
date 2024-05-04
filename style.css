@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.nav {
+    height: 6vw;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+    margin-right: 2vw;
+    font-size: 1.5vw;
+}
+
+#portfolio {
+    width: 20vw;
+    margin-block-start: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.p-1 {
+    margin-left: 0px;
+}
+
+.navbar {
+    display: none;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.container-fluid {
+    align-items: center;
+}
+
+.darkmode {
+    width: 55px;
+    margin-right: 50px;
+}
+
+.Home h1 {
+    font-size: 5vw;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(41, 233, 243);
+    margin-left: 30vw;
+}
+
+.Home {
+    align-items: center;
+    background-image: url(https://wallpaperaccess.com/full/5652030.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vw;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skills {
+    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-size: cover;
+    height: 60vw;
+    background-repeat: calc(2);
+}
+
+.skills h1 {
+    color: rgb(180, 210, 97);
+    margin-left: 5vw;
+    font-size: 6vw;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.skillset {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Adjust the gap as needed */
+    margin: 4vw 2vw;
+    justify-content: center;
+}
+
+.skillset h3 {
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.progress {
+    width: 50%;
+    /* Adjust this width as needed */
+    height: 2vw;
+    border-radius: 1vw;
+    margin-right: 2vw;
+}
+
+.background {
+    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-size: cover;
+    height: 60vw;
+    background-repeat: calc(2);
+}
+
+.background h1 {
+    color: rgb(180, 210, 97);
+    margin-left: 5vw;
+    font-size: 6vw;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.intro {
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2.5vw;
+
+}
+.project {
+    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-size: cover;
+    height: 60vw;
+    background-repeat: calc(2);
+}
+
+.project h1 {
+    color: rgb(180, 210, 97);
+    margin-left: 5vw;
+    font-size: 6vw;
+    font-style: italic;
+    font-weight: 700;
+}
+.contact {
+    background-image: url(https://wallpaperaccess.com/full/5651992.png);
+    background-size: cover;
+    height: fit-content ;
+    background-repeat: 3;
+}
+
+.contact h1 {
+    color: rgb(180, 210, 97);
+    margin-left: 5vw;
+    font-size: 6vw;
+    font-style: italic;
+    font-weight: 700;
+}
+.contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    width: 38%;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.links img {
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width : 835px) {
+    .nav {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+}
