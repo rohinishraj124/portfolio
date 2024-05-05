@@ -1,0 +1,136 @@
+.skills {
+    background-color: black;
+    background-size: cover;
+    height: 60vw;
+    background-repeat: calc(2);
+}
+
+.skills h1 {
+    color: rgb(180, 210, 97);
+    margin-left: 5vw;
+    font-size: 6vw;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.skillset {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Adjust the gap as needed */
+    margin: 4vw 2vw;
+    justify-content: center;
+}
+
+.skillset h3 {
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.progress {
+    width: 50%;
+    /* Adjust this width as needed */
+    height: 2vw;
+    border-radius: 1vw;
+    margin-right: 2vw;
+}
+
+.html{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: html 9s;
+
+}
+.css{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: css 10s;
+
+}
+.js{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: js 11s;
+
+}
+.c{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: c 12s;
+
+}
+.cpp{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: cpp 13s;
+
+}
+.python{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: python 15s;
+
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 98%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 90%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 60%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 80%;
+    }
+}
+@keyframes cpp{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 50%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 40%;
+    }
+}
+.html,
+.css,
+.js,
+.c,
+.cpp,
+.python{
+    font-size: 1.5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
 
+/* body{
+    /* cursor: none; 
+} */
 .nav {
     height: 6vw;
     align-items: center;
@@ -87,6 +91,28 @@
     }
   }
 
+
+  /* .cursor-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #604e4e;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #5d4c4c;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+} */
+
 .Home {
     align-items: center;
     background-image: url(https://wallpaperaccess.com/full/5652030.jpg);
@@ -100,7 +126,7 @@
 }
 
 .skills {
-    background-color: black;
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-Website-Background.jpg);
     background-size: cover;
     height: 60vw;
     background-repeat: calc(2);
@@ -137,8 +163,107 @@
     border-radius: 1vw;
     margin-right: 2vw;
 }
+
+.html{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: html 9s;
+
+}
+.css{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: css 10s;
+
+}
+.js{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: js 11s;
+
+}
+.c{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: c 12s;
+
+}
+.cpp{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: cpp 13s;
+
+}
+.python{
+    background: linear-gradient(135deg, rgb(158, 35, 1)0%, rgb(255, 166, 0)100%);
+    width: 98%;
+    animation: python 15s;
+
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 98%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 90%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 60%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 80%;
+    }
+}
+@keyframes cpp{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 50%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 40%;
+    }
+}
+.html,
+.css,
+.js,
+.c,
+.cpp,
+.python{
+    font-size: 1.5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .background {
-    background-color: black;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2015/07/20/blue-and-green-curves.jpg);
     background-size: cover;
     height: 60vw;
     background-repeat: calc(2);
@@ -156,15 +281,29 @@
     width: 80%;
     margin-left: 10vw;
     margin-top: 5vw;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
+    font-family: "Briem Hand", cursive;
+    font-weight: 600;
     font-style: normal;
-    color: white;
+    color: #ffe698;
     font-size: 2.5vw;
+    position: relative;
+    overflow: hidden;
+}
 
+/* Cursor blinking animation */
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    border-right: 3px solid #ffe698;
+    animation: cursor .4s step-end infinite alternate;
 }
 .project {
-   background-color: black;
+   background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-Website-Background.jpg);
     background-size: cover;
     height: 60vw;
     background-repeat: calc(2);
@@ -178,7 +317,7 @@
     font-weight: 700;
 }
 .contact {
-    background-color: black;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2015/07/20/blue-and-green-curves.jpg);
     background-size: cover;
     height: fit-content ;
     background-repeat: 3;
@@ -216,6 +355,14 @@
     border: none;
     margin-right: 10px;
 }
+.contact ul li a{
+    transition: all 0.3s ease;
+
+}
+.contact ul li a:hover{
+    color: blue;
+}
+
 
 
 @media screen and (max-width : 835px) {
